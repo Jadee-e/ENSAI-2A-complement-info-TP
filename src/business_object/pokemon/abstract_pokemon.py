@@ -36,7 +36,7 @@ class AbstractPokemon(ABC):
             float : the multiplier
         """
         pass
-        
+    
         # if self._type == "Attacker":
         #     multiplier = 1 + (self.speed_current + self.attack_current) / 200
         # elif self._type == "Defender":
@@ -51,8 +51,7 @@ class AbstractPokemon(ABC):
         #     raise Exception("unknown type")
 
         # return multiplier
-        
-
+       
     def level_up(self) -> None:
         """
         Increase the level by one
